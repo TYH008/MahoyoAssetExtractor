@@ -1,0 +1,59 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+TestResults/
+coverage/
+*.trx
+
+# IDE and editor local state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Packages and temporary files
+packages/
+*.nupkg
+*.snupkg
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pfx
+*.p12
+*.key
+
+# Commercial/local samples and extraction output
+samples/
+local-samples/
+real-samples/
+game-files/
+extracted/
+extraction-output/
+output/
+*.hfa
+# Git on Windows matches the namespace folder suffix case-insensitively.
+# Keep the real C# HFA format project trackable while ignoring archive files.
+!src/VNAssetExplorer.Formats.Hfa/
+!src/VNAssetExplorer.Formats.Hfa/**
+# Re-apply build-output ignores after unignoring the namespace folder.
+src/VNAssetExplorer.Formats.Hfa/[Bb]in/
+src/VNAssetExplorer.Formats.Hfa/[Oo]bj/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Trellis local runtime files are handled by .trellis/.gitignore.
+# Do not ignore .trellis itself: specs, tasks, and journals are project memory.

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\VNAssetExplorer.Core\VNAssetExplorer.Core.csproj" />
+    <ProjectReference Include="..\VNAssetExplorer.Formats.Hfa\VNAssetExplorer.Formats.Hfa.csproj" />
+    <ProjectReference Include="..\VNAssetExplorer.Formats.Mzp\VNAssetExplorer.Formats.Mzp.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
